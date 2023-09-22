@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-color: lightskyblue;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 360px;
+    height: 420px;
+    background-color: white;
+    position: absolute;
+    border: none;
+    border-radius: 6px; 
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: solid 2px dodgerblue;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .btn input[type='button']{
+    width:80px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    background-color: dodgerblue;
+    border-radius: 6px;
+    color: white;
+ }
+ .btn input[type='button']:hover{
+    background-color: lightblue;
+    color: white;
+ }
+
+ .head{
+    color: black;
+    text-align: center;
+ }
